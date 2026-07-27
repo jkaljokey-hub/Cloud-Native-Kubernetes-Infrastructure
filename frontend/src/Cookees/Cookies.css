@@ -1,0 +1,29 @@
+.Cookies{
+    background-color: #711E1A;
+    width: 100%;
+color: white;
+font-family: "proxima-nova", sans-serif;
+text-align: center;
+align-items: center;
+position: fixed;
+bottom: 0;
+z-index: 800;
+font-size: 14px;
+}
+
+
+
+.privicy a{
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+.x{
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+  
+    
+}
+

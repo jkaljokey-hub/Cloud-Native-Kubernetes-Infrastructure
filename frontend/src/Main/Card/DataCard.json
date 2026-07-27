@@ -1,0 +1,47 @@
+[
+
+{
+
+"id":"1",
+"img":"https://bouqs.com/cdn-cgi/image/height=908,fit=cover,quality=80,width=908,format=auto/media/W1siZiIsIjIwMjUvMDEvMDgvMTYvNTIvNDEvYTM0ZjM5OTQtM2YyMi00YzY0LTk0YTctMWE5YzgwZDJkMDdhL1ZBTDI0X1ZkYXlSb3Nlc19ETF9PSF83MzRfV2ViLmpwZyJdXQ/VAL24_VdayRoses_DL_OH_734_Web.jpg?sha=d52345685118372a",
+"title":"Strawberry Shortcake",
+"price":"$59",
+"text":"Subscribe for 30% off +free shipping",
+"priceSec":"$42"
+
+}
+,
+{
+
+    "id":"2",
+    "img":"https://bouqs.com/cdn-cgi/image/height=908,fit=cover,quality=80,width=908,format=auto/media/W1siZiIsIjIwMjQvMDEvMDUvMTUvMjkvNTgvZDFmOTRiYWQtMTgyMy00OTkzLTg1OTgtYjlmYjAyY2NmYzY3L1ZBTDI0X0JlTWluZV9DYW5keUdyYW1fQk5EXzU2OV9XZWIuanBnIl1d/VAL24_BeMine_CandyGram_BND_569_Web.jpg?sha=f495ca1817590858",
+
+    "title":"Always",
+    "price":"$59",
+    "text":"Subscribe for 30% off +free shipping",
+    "priceSec":"$42"
+    
+    }
+    ,{
+        "id":"119",
+        "img":"https://bouqs.com/cdn-cgi/image/height=908,fit=cover,quality=80,width=908,format=auto/media/W1siZiIsIjIwMjUvMDEvMDkvMTgvNDIvNDgvMDM0YjA2MzYtYmFiMC00NDZkLThjNTQtNjMwZjFmYzg0NGNhL1ZBTDI1LVRoZVZhbGVudGluZXNEYXlBcnJhbmdtZW50X09IXzQ4OTNfV2ViLmpwZyJdXQ/VAL25-TheValentinesDayArrangment_OH_4893_Web.jpg?sha=0b3fad23b7689e80",
+
+        "title":"Valentine's Day Roses",
+        "price":"$59",
+        "text":"Be mine",
+        "priceSec":"$84"
+        
+        }
+        ,
+        {
+            "id":"4",
+            "img":"https://bouqs.com/cdn-cgi/image/height=908,fit=cover,quality=80,width=908,format=auto/media/W1siZiIsIjIwMjUvMDEvMDkvMTUvMzgvNTIvY2YyYTlkNDMtMWM0MC00YmE4LTljMWEtOGY5M2E3NzhkNjE0L1ZBTDI1LUJlbGxhX09TXzM0OTZfVmFzZUluY2x1ZGVkQkdfMS5qcGciXV0/VAL25-Bella_OS_3496_VaseIncludedBG_1.jpg?sha=b7a402e729fce434",
+
+            "title":"Bellia",
+            "price":"$109",
+            "text":"Subscribe for 30% off +free shipping",
+            "priceSec":"$77"
+            
+            }
+            
+]

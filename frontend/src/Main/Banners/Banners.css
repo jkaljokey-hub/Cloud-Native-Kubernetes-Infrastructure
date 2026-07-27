@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.banner {
+  padding-top: 10px;
+
+  width: 97%;
+  margin: auto;
+}
+
+.ShopAllBestBtn {
+  text-align: center;
+  padding: 35px;
+}
+
+.ShopAllBestBtn button {
+  font-size: 16px;
+  background-color: #144b3c;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: bold;
+}
+
+/*Top banner*/
+
+.topbaner {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #2d2d2c;
+  
+}
+.topbaner-image {
+  height: 370px;
+  width: 100%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.overlay-text-banner {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #2d2d2c;
+}
+
+.largfont {
+  font-size: 43px;
+  font-weight: 700;
+  font-family: "proxima-nova", sans-serif;
+}
+.overlay-text-banner p {
+  font-family: "proxima-nova", sans-serif;
+}
+.overlay-text-banner button {
+  background-color: #085b45;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .overlay-text-banner {
+    position: absolute;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    .largfont {
+      font-size: 30px;
+    }
+  }
+  .overlay-text-banner p {
+    font-size: 18px;
+  }
+  .largfont {
+    font-size: 25px;
+  }
+  .button {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 768px) {
+  .overlay-text-banner {
+    position: absolute;
+    left: 80%;
+  }
+  .largfont {
+    font-size: 25px;
+    margin: 1px;
+    color: #2C2C2D;
+  }
+
+  .overlay-text-banner p {
+    margin: 1px;
+    font-size: 18px;
+    font-family: "proxima-nova", sans-serif;
+  }
+  .overlay-text-banner p {
+    font-size: 18px;
+    font-family: "proxima-nova", sans-serif;
+  }
+
+  .overlay-text-banner button {
+    font-size: 16px;
+    padding: 8px 20px;
+    width: 180px;
+    font-family: "proxima-nova", sans-serif;  }
+}
+
+@media (max-width: 576px) {
+  .banner {
+    width: 90%;
+  }
+  
+  .largfont {
+    font-size: 46px;
+    padding: 10px;
+    color: #2C2C2D;
+  }
+
+  .topbaner img {
+    width: 100%;
+    display: block;
+
+    object-fit: cover;
+    /* object-fit: cover;*/
+    object-position: center;
+  }
+
+  .topbaner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .overlay-text-banner {
+    position: static; /* Removes absolute positioning */
+    transform: none;
+    background: none; /* Removes dark overlay */
+    color: black; /* Changes text color for readability */
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    font-size: 18px;
+  }
+
+  .overlay-text-banner p {
+    font-family: "proxima-nova", sans-serif;    font-size: 18px;
+    font-weight: 200;
+    padding: 10px;
+    color: #2d2d2c;
+  }
+
+  .overlay-text-banner button {
+    font-size: 16px;
+    width: 250px;
+  }
+}
+
+/*Markers*/
+.Markes-root {
+  background-color: #f7f9fc;
+  align-items: center;
+
+  padding-top: 10px;
+  
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Markes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.Markesimg {
+  height: 100px;
+  width: 100px;
+}
+
+.marks-p {
+  font-size: 16px;
+  font-family: "proxima-nova", sans-serif;  font-weight: 500;
+}
+
+/*Samedaycom*/
+
+.Samedaycom {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.Samedaycom-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  margin: auto;
+  display: block;
+}
+.overlay-text-Samedaycom{
+  position: absolute;
+
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  color: #2d2d2c;
+}
+
+.overlay-text-Samedaycom h2{ 
+   font-size: 48px;
+  font-weight: 700;
+  font-family: playfair display, serif;}
+.overlay-text-Samedaycom p{
+  font-family: "proxima-nova", sans-serif;
+  
+  font-size: 18px;
+  font-weight: 200;
+  padding: 10px;
+  color: #2D2D2c;
+}
+
+@media (max-width: 992px) {
+  .overlay-text-Samedaycom {
+    position: absolute;
+    left: 23%;
+    transform: translate(-50%, -50%);
+   
+  }
+  .overlay-text-Samedaycom  p {
+    font-size: 18px;
+  }
+  .largfont {
+    font-size: 25px;
+    
+  }
+  .overlay-text-Samedaycom button {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .overlay-text-Samedaycom {
+    position: absolute;
+    left: 24%;
+  }
+  .overlay-text-Samedaycom h2 {
+    font-size: 25px;
+    margin: 1px;
+  }
+
+  .overlay-text-Samedaycom p {
+    margin: 1px;
+    font-size: 18px;
+    font-family: "proxima-nova", sans-serif;
+  }
+
+  .overlay-text-Samedaycom button {
+    font-size: 16px;
+    padding: 8px 20px;
+    width: 180px;
+    font-family: "proxima-nova", sans-serif;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .overlay-text-Samedaycom h2 {
+    font-size: 46px;
+    padding: 10px;
+  }
+
+  .overlay-text-Samedaycom img {
+    width: 100%;
+    display: block;
+padding-top: 13px;
+    object-fit: cover;
+    /* object-fit: cover;*/
+    object-position: center;
+  }
+
+  .Samedaycom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .overlay-text-Samedaycom {
+    position: static; /* Removes absolute positioning */
+    transform: none;
+    background: none; /* Removes dark overlay */
+    color: black; /* Changes text color for readability */
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    font-size: 18px;
+  }
+
+  .overlay-text-Samedaycom p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px;
+    color: #2d2d2c;
+  }
+
+  .overlay-text-banner button {
+    font-size: 16px;
+    width: 250px;
+  }
+
+
+
+  .imgswiper{
+    height: 320px;
+    object-fit: cover;
+  }
+
+}
+
+
+
+
+
+/* Swiper*/
+/* Style for image container */
+.SwiperComponentRoot p{
+
+  font-size: 25px;
+  color: #556477;
+  font-family: "proxima-nova", sans-serif;
+ 
+}
+.SwiperComponentRoot{
+  text-align: center;
+  padding-top: 30px;
+
+}
+.SwiperComponent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Style for image */
+.imgswiper {
+  width: 100%;
+  
+  display: block;
+}
+
+/* Overlay for black transition */
+.SwiperComponent::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(99, 96, 96, 0);
+  /* Initially transparent */
+  transition: background 0.4s ease-in-out;
+}
+
+/* Text overlay */
+.overlay-text-swiper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Hover effect: Darken overlay & show text */
+.SwiperComponent:hover::before {
+  background: rgba(0, 0, 0, 0.7); /* Fully dark on hover */
+}
+
+.SwiperComponent:hover .overlay-text-swiper {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom Styles for Swiper Navigation Arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  width:  30px;
+  height: 30px;
+  /* Make arrows circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Force Change Arrow Color */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white !important; /* Change arrow color to white */
+  font-size: 15px !important; /* Adjust size */
+  font-weight: bold;
+}
+
+/* Hover Effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

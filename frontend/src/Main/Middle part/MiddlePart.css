@@ -1,0 +1,168 @@
+/* Container to position elements properly */
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 1536px; /* Adjust based on your design */
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  /* Image Styling */
+  .image-container .image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Overlay Text Container */
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%); /* Centers text */
+    color: black;
+   
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  /* Heading */
+  .overlay-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph Styling */
+  .p-overlay {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styling */
+  .button {
+    background-color: #085B45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #d62839;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width:992px) {  
+      .overlay-text {
+        position: absolute;
+        left: 20%;
+        transform: translate(-50%, -50%);
+       
+          
+          padding-left: 60px;
+           
+  }
+  .p-overlay {
+    font-size: 15px;}
+  .overlay-text h2 {
+    font-size: 25px;
+ 
+    
+  }
+  .button {
+    font-size: 15px;
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 768px) {
+  
+    .overlay-text h2 {
+        font-size: 15px;
+        margin: 1px;
+      }
+    .overlay-text {
+        
+      
+left: 20%     ;
+    }
+    .p-overlay {
+        margin: 1px;
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .p-overlay-text{
+        
+        font-size: 14px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      .button {
+        font-size: 12px;
+      
+       font-family: 'Times New Roman', Times, serif;
+      }
+
+
+}
+
+
+
+
+    
+
+    @media (max-width:576px) {
+      
+        .overlay-text h2 {
+        font-size: 36px;
+        padding: 10px;
+    }
+      
+    .image {
+            width: 100%;
+            display: block;
+          
+            object-fit: cover;
+            /* object-fit: cover;*/
+            object-position: center; 
+            
+          }
+          
+
+        .image-container {
+         
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        
+          .overlay-text {
+            position: static; /* Removes absolute positioning */
+            transform: none;
+            background: none; /* Removes dark overlay */
+            color: black; /* Changes text color for readability */
+            padding: 20px;
+            text-align: center;
+            width: 90%;
+            max-width: 600px;
+            font-size: 18px;
+            
+          }
+
+          .p-overlay-text{
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 200;
+          }
+
+
+          .button {
+            font-size: 16px;
+
+          }
+      
+
+}
