@@ -1,0 +1,15 @@
+backend:
+  replicaCount: 1
+
+  image:
+    repository: abuabakaralnour/flowersbackend
+    tag: v8
+
+frontend:
+  replicaCount: 1
+
+  image:
+    repository: abuabakaralnour/flowersfrontend
+    tag: v9
+
+    
