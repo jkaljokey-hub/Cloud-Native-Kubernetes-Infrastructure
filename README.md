@@ -314,11 +314,22 @@ Users
 Add screenshots for:
 
 * Running Application
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)
+
 * Kubernetes Pods
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)
 * Kubernetes Services
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)
 * Helm Release
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)
 * Ingress
-* Architecture Diagram
+
+![AD DS Screenshot](https://github.com/jkaljokey-hub/consoleLtd-onprem-to-azure-migration/blob/main/assets/ChatGPT%20Image%20May%2024,%202026,%2003_18_11%20PM.png?raw=true)
+
 
 Example:
 

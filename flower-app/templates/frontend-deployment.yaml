@@ -6,11 +6,11 @@ metadata:
 
 spec:
   replicas: {{ .Values.frontend.replicaCount }}
-
+#selector is how the other obejec find tag
   selector:
     matchLabels:
       app: frontend
-
+# label is just a tag put on kubrnetes object
   template:
     metadata:
       labels:
