@@ -58,7 +58,7 @@ The goal is to demonstrate practical Kubernetes deployment skills including appl
 
 ---
 
-# 🚀 Technologies
+#  Technologies
 
 | Category           | Technologies      |
 | ------------------ | ----------------- |
@@ -334,23 +334,11 @@ Add screenshots for:
 ![AD DS Screenshot](https://github.com/jkaljokey-hub/kubernetes-fullstack-deployment/blob/main/Doc&screenshots/Ingress.png?raw=true)
 
 
-Example:
-
-```
-screenshots/
-├── app.png
-├── pods.png
-├── services.png
-├── ingress.png
-├── helm.png
-└── architecture.png
-```
 
 ---
 
-# 📚 Lessons Learned
+# 📚 Lessons Achived
 
-This project helped me understand:
 
 * Kubernetes architecture
 * Pod lifecycle
