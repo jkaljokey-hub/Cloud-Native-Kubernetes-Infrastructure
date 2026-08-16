@@ -57,7 +57,7 @@ The goal is to demonstrate practical Kubernetes deployment skills including appl
 ```
 
 ---
-sdvvsdvsdsdvsf
+sdvvsdvsdsdvsffsvhsdbfvlsdjhfvksjfhbvsk
 #  Technologies
 
 | Category           | Technologies      |
