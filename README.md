@@ -175,7 +175,7 @@ CMD ["node","server.js"]
 # ⚙ ConfigMap
 
 Application configuration is stored outside the container image.
-asddddddsffffffffffffff
+
 Example:
 
 ```yaml
